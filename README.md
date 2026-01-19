@@ -58,7 +58,11 @@ Reusable transformation functions
 
 Audit-friendly metadata and lineage tracking
 
-##Analytics Dashboard
+## Analytics Dashboard
 
 The final gold layer tables were used to build a comprehensive Business Intelligence dashboard in Databricks.
-![Project Architecture](images/architecture_diagram.png)
+
+Revenue vs Expenses
+![Revenue vs Expenses](images/dashboard_screenshot.png.jpeg)
+
+![Revenue vs Expenses](images/dashboard_screenshot.png.jpeg)
