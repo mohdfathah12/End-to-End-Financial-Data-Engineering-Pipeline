@@ -8,7 +8,7 @@ The solution is designed to reflect real-world enterprise data engineering workf
 
 
 ## Architecture Overiview
-![Project Architecture](images/architecture_diagram.png)
+![Project Architecture](images/architecture_diagram.png.jpeg)
 This project demonstrates a production-grade data pipeline using Databricks and PySpark, following the Medallion Architecture to process raw financial data from AWS S3.
 
 ## Technology Stack
