@@ -40,4 +40,23 @@ Reusable transformation functions
 
 Audit-friendly metadata and lineage tracking
 ## Architecture Overiview
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+![](Table screenshot.png.jpeg)
+This project demonstrates a production-grade data pipeline using Databricks and PySpark, following the Medallion Architecture to process raw financial data from AWS S3.
+
+Raw CSV Data (Amazon S3)
+
+        ↓
+        
+Bronze Layer (Raw Ingestion)
+
+        ↓
+        
+Silver Layer (Cleaned & Validated)
+
+        ↓
+        
+Gold Layer (Financial KPIs & Data Marts)
+
+        ↓
+        
+SQL Analytics / Dashboards
