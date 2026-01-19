@@ -6,6 +6,24 @@ The pipeline ingests raw financial datasets from Amazon S3, processes them throu
 
 The solution is designed to reflect real-world enterprise data engineering workflows, focusing on data quality, scalability, auditability, and financial accuracy.
 
+
+## Architecture Overiview
+![Project Architecture](images/architecture_diagram.png)
+This project demonstrates a production-grade data pipeline using Databricks and PySpark, following the Medallion Architecture to process raw financial data from AWS S3.
+
+## Technology Stack
+
+Apache Spark (PySpark)
+
+Databricks
+
+Amazon S3
+
+Delta Lake & Parquet
+
+SQL
+
+Python
 ### Key Features
 ### Medallion Architecture
 Bronze Layer: Raw data ingestion from S3 with ingestion metadata for traceability
@@ -39,24 +57,8 @@ Clear separation of ingestion, transformation, and analytics layers
 Reusable transformation functions
 
 Audit-friendly metadata and lineage tracking
-## Architecture Overiview
-![](Table screenshot.png.jpeg)
-This project demonstrates a production-grade data pipeline using Databricks and PySpark, following the Medallion Architecture to process raw financial data from AWS S3.
 
-Raw CSV Data (Amazon S3)
+##Analytics Dashboard
 
-        ↓
-        
-Bronze Layer (Raw Ingestion)
-
-        ↓
-        
-Silver Layer (Cleaned & Validated)
-
-        ↓
-        
-Gold Layer (Financial KPIs & Data Marts)
-
-        ↓
-        
-SQL Analytics / Dashboards
+The final gold layer tables were used to build a comprehensive Business Intelligence dashboard in Databricks.
+![Project Architecture](images/architecture_diagram.png)
