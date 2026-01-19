@@ -66,8 +66,8 @@ Revenue vs Expenses
 ![Revenue vs Expenses](images/dashboard_screenshot.png.jpeg)
 
 ## Script For Project 
-### Python
-[Script](notebooks).
+### Silver Transformation: Implemented schema enforcement and data cleaning using PySpark. 
+[Script 1](notebooks).
 
-### SQL
-[Script](notebooks).
+### Gold Layer SQL: Used window functions and aggregations to create the financial_summary. Full analytics queries here:
+[Script 2](sql_analytics).
