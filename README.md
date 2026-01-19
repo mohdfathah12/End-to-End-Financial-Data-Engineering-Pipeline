@@ -64,4 +64,10 @@ The final gold layer tables were used to build a comprehensive Business Intellig
 
 Revenue vs Expenses
 ![Revenue vs Expenses](images/dashboard_screenshot.png.jpeg)
-[GitHub Pages](https://pages.github.com/).
+
+## Script For Project 
+### Python
+[Script](notebooks).
+
+### SQL
+[Script](notebooks).
