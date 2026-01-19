@@ -65,6 +65,8 @@ The final gold layer tables were used to build a comprehensive Business Intellig
 Revenue vs Expenses
 ![Revenue vs Expenses](images/dashboard_screenshot.png.jpeg)
 
+
+![](images/dashboard_screenshot.png.jpeg)
 ## Script For Project 
 ### Silver Transformation: Implemented schema enforcement and data cleaning using PySpark. 
 [Script 1](notebooks).
