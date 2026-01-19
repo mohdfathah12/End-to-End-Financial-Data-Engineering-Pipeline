@@ -65,5 +65,3 @@ The final gold layer tables were used to build a comprehensive Business Intellig
 Revenue vs Expenses
 ![Revenue vs Expenses](images/dashboard_screenshot.png.jpeg)
 
-Month-over-Month Revenue Growth
-![Month-over-Month Revenue Growth](images/dashboard_screenshot 2.png.jpeg)
